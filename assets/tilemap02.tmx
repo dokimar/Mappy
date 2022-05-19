@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="64">
  <editorsettings>
-  <export target="../../../tilemap02.tmj" format="json"/>
+  <export target="tilemap02.tmj" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="colored_packed" tilewidth="16" tileheight="16" tilecount="1056" columns="48">
   <image source="colored_packed.png" width="768" height="352"/>
@@ -5358,7 +5358,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Objects" visible="0">
+ <objectgroup id="4" name="Objects">
   <object id="1" name="P1 Spawn" x="55.9042" y="237.319">
    <point/>
   </object>
