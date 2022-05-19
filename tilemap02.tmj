@@ -541,12 +541,12 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":110.792042364391,
-                 "y":193.344210676972
+                 "x":110.792,
+                 "y":193.344
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
@@ -560,7 +560,7 @@
         {
          "columns":48,
          "firstgid":1,
-         "image":"colored_packed.png",
+         "image":"assets\/colored_packed.png",
          "imageheight":352,
          "imagewidth":768,
          "margin":0,
