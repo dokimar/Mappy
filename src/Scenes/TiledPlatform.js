@@ -112,6 +112,10 @@ class TiledPlatform extends Phaser.Scene {
             key: "kenney_sheet",
             frame: 513
         });
+        
+        // having created the sprites, we now need to tell Arcade Physics about them
+        this.physics.world.enable(this.bluePowerUps, Phaser.Physics.Arcade.STATIC_BODY);
+        this.bluePowerUpGroup = this.add.group(this.bluePowerUps);
 
         // set gravity and physics world bounds (so collideWorldBounds works)
         this.physics.world.gravity.y = 2000;
@@ -122,7 +126,6 @@ class TiledPlatform extends Phaser.Scene {
         this.physics.add.overlap(this.p1, this.coinGroup, (obj1, obj2) => {
             obj2.destroy(); // remove coin on overlap
         });
-
         this.physics.add.overlap(this.p1, this.bluePowerUpGroup, (obj1, obj2) => {
             obj2.destroy(); // remove power up
         })
