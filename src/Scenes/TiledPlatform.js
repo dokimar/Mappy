@@ -127,7 +127,7 @@ class TiledPlatform extends Phaser.Scene {
 
         this.coinVfxEffect = this.coinVfxManager.createEmitter({
             follow: this.p1,
-            quantity: 20,
+            quantity: 3,
             scale: {start: 1.0, end: 0.0},  // start big, end small
             speed: {min: 50, max: 100}, // speed up
             lifespan: 800,   // short lifespan
